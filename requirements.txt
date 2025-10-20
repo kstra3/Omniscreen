@@ -1,0 +1,16 @@
+# Core dependencies
+PyQt6>=6.6.0
+Pillow>=10.0.0
+mss>=9.0.0
+pynput>=1.7.6
+pyperclip>=1.8.2
+
+# Platform-specific dependencies
+pywin32>=306; sys_platform == 'win32'
+pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'
+pyobjc-framework-Quartz>=10.0; sys_platform == 'darwin'
+python-xlib>=0.33; sys_platform == 'linux'
+
+# Additional utilities
+watchdog>=3.0.0
+appdirs>=1.4.4
